@@ -1,6 +1,6 @@
 {
   "name": "rc-tooltip-es6",
-  "version": "3.5.1",
+  "version": "3.5.2",
   "description": "React Tooltip",
   "keywords": [
     "react",
@@ -31,7 +31,7 @@
   "config": {
     "port": 8007,
     "entry": {
-      "rc-tooltip": [
+      "rc-tooltip-es6": [
         "./src/index.js"
       ]
     }
@@ -42,12 +42,10 @@
     "gh-pages": "rc-tools run gh-pages",
     "start": "rc-tools run server",
     "compile": "rc-tools run compile --babel-runtime",
-    "pub": "rc-tools run pub --babel-runtime",
     "lint": "rc-tools run lint",
     "karma": "rc-test run karma",
     "saucelabs": "rc-test run saucelabs",
     "test": "rc-test run test",
-    "prepublish": "rc-tools run guard",
     "chrome-test": "rc-test run chrome-test",
     "coverage": "rc-test run coverage"
   },
